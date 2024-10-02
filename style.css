@@ -1,12 +1,45 @@
 ul {
     list-style: none;
+    display: flex;
 }
 
 a {
     text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 img {
     height:300px;
     width:600px;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900px;
+}
+
+.examples-text {
+    font-size: 36px;
+    color: #1f2937;
+    weight: 900px;
+} 
+
+button {
+    background-color: #3882f6;
+}
+
+body {
+    background-color: lightblue;
 }
